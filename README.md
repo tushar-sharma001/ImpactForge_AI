@@ -1,95 +1,235 @@
-# ImpactForge AI
+# 🌍 ImpactForge AI
 
-## AI Multi-Agent Social Impact Project Designer
+## AI-Powered Multi-Agent Social Impact Project Designer
 
-ImpactForge AI is a Google Gemini-powered multi-agent system that transforms social problems into complete implementation-ready project proposals.
-link: https://impactforgeai-jmbqzgwtlkkycse5iplq3y.streamlit.app/
+ImpactForge AI is an AI-powered multi-agent system built using **Google Gemini** and **Streamlit** that transforms a social problem into a complete implementation-ready project proposal.
 
-## Features
+🔗 **Live Demo:** https://impactforgeai-jmbqzgwtlkkycse5iplq3y.streamlit.app/
 
-- Research Agent
-- SDG Mapping Agent
-- Planning Agent
-- KPI Generation
-- Risk Assessment
-- Funding Recommendation
-- AI Evaluation
-- Final Report Generation
+---
 
-## Architecture
+## 🚀 Overview
+
+Instead of relying on a single AI prompt, ImpactForge AI uses multiple specialized AI agents that collaboratively perform:
+
+- 🔍 Problem Research
+- 🌍 SDG Mapping
+- 📋 Project Planning
+- 📊 KPI Generation
+- ⚠ Risk Assessment
+- 💰 Funding Recommendation
+- ⭐ AI-based Project Evaluation
+- 📝 Executive Report Generation
+
+The application provides a complete AI-assisted workflow for designing impactful social innovation projects.
+
+---
+
+# ✨ Features
+
+- Multi-Agent Architecture
+- Google Gemini Powered
+- Interactive Streamlit Interface
+- SDG Recommendation
+- Implementation Roadmap
+- KPI & Success Metrics
+- Risk Analysis
+- Funding Suggestions
+- AI Project Evaluation
+- Downloadable Project Report
+
+---
+
+# 🏗 Architecture
 
 ```
-Problem
-   │
-   ▼
-Research
-   │
-   ▼
-SDG Mapping
-   │
-   ▼
-Planning
-   │
-   ▼
-Metrics
-   │
-   ▼
-Risk
-   │
-   ▼
-Funding
-   │
-   ▼
-Evaluation
-   │
-   ▼
-Report
+User Input
+     │
+     ▼
+Research Agent
+     │
+     ▼
+SDG Mapping Agent
+     │
+     ▼
+Planning Agent
+     │
+     ▼
+Metrics Agent
+     │
+     ▼
+Risk Assessment Agent
+     │
+     ▼
+Funding Agent
+     │
+     ▼
+Evaluation Agent
+     │
+     ▼
+Report Generation Agent
+     │
+     ▼
+Final Project Report
 ```
 
-## Technologies
+---
+
+# 🤖 AI Agents
+
+| Agent | Responsibility |
+|--------|----------------|
+| Research Agent | Studies the problem and identifies causes, stakeholders and challenges |
+| SDG Agent | Maps the project to the most relevant Sustainable Development Goals |
+| Planning Agent | Creates objectives, implementation activities and project timeline |
+| Metrics Agent | Generates KPIs and success metrics |
+| Risk Agent | Performs implementation risk analysis |
+| Funding Agent | Recommends CSR grants and funding opportunities |
+| Evaluation Agent | Scores innovation, feasibility, impact and sustainability |
+| Report Agent | Generates the executive report |
+
+---
+
+# 🖥 Technology Stack
 
 - Python
-- Google Gemini API
+- Streamlit
+- Google Gemini 2.5 Flash
+- Google GenAI SDK
 - Pydantic
-- Kaggle Notebook
+- JSON
 
-## Installation
+---
+
+# 📂 Repository Structure
+
+```
+ImpactForge_AI
+│
+├── app.py
+├── requirements.txt
+├── README.md
+└── impactforge-ai-ai-multi-agent-social-impact-project.ipynb
+```
+
+---
+
+# ⚙ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/tushar-sharma001/ImpactForge_AI.git
+```
+
+Move into the project
+
+```bash
+cd ImpactForge_AI
+```
+
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Add your Gemini API Key (or Kaggle Secret) and run the notebook.
+---
 
-## Example Input
+# 🔑 Configure Gemini API
+
+Create
+
+```
+.streamlit/secrets.toml
+```
+
+Add
+
+```toml
+GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
+```
+
+---
+
+# ▶ Run the Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+# 📸 Application
+
+The Streamlit application allows users to enter:
+
+- Social Problem
+- Location
+- Target Population
+- Estimated Budget
+
+The AI automatically generates:
+
+- Research Summary
+- SDG Mapping
+- Objectives
+- Activities
+- Timeline
+- KPIs
+- Risk Assessment
+- Funding Sources
+- Evaluation Scores
+- Executive Report
+
+---
+
+# 💡 Example
+
+### Input
 
 ```
 Reduce food waste in Delhi schools
 ```
 
-## Output
+### Output
 
-- Research Summary
-- SDG Mapping
-- Project Plan
+- Research Analysis
+- SDG 2, SDG 12 & SDG 13 Mapping
+- Implementation Plan
 - KPIs
 - Risk Analysis
-- Funding Suggestions
-- Evaluation
+- Funding Opportunities
 - Executive Report
 
-## Repository Structure
+---
 
-```
-ImpactForge-AI/
-│
-├── ImpactForgeAI.ipynb
-├── README.md
-├── requirements.txt
-├── LICENSE
-└── assets/
-```
+# 🎯 Future Scope
 
-## License
+- PDF Export
+- Budget Optimizer
+- NGO Recommendation Engine
+- Multi-language Support
+- Interactive Timeline
+- Collaboration Dashboard
 
-MIT License
+---
+
+# 👨‍💻 Author
+
+**Tushar Sharma**
+- AI & Data Science Enthusiast
+  
+---
+
+# 🙏 Acknowledgements
+
+- Google Gemini API
+- Streamlit
+- Google AI Developers
+- United Nations Sustainable Development Goals
+- Kaggle AI Agents: Intensive Vibe Coding Capstone
+
+---
+
+## ⭐ If you found this project useful, consider giving it a Star.
